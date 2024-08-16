@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: #c6958b;
+    border-radius: 20px;
+    width: 60%;
+    height: 50%;
+}
+#Subcon1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    background-color: brown;
+    border-radius: 20px;
+    scale: 1.05;
+    background-image: url(/images/photo-1652654223242-102cfbcdc6f5.png);
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-size: x-large;
+    color: aliceblue;
+}
+
+#Subcon2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin: 20px;
+}
